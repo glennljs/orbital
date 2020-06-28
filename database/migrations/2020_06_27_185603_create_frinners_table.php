@@ -16,7 +16,7 @@ class CreateFrinnersTable extends Migration
         Schema::create('frinners', function (Blueprint $table) {
             $table->id();
             $table->integer('user_id');
-            $table->integer('taker_id')->nullable()->default("");
+            $table->integer('taker_id')->nullable();
             $table->boolean('taken')->nullable()->default(false);
             $table->timestamps();
         });
