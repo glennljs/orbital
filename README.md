@@ -28,6 +28,16 @@ Hall caterers will prepare food for the total number of people staying in a give
 5. Priority Queue system that allows pre-requesting of frinners that are fulfilled when frinners are provided by other users.
 6. Profile 
 
+## Issues Encountered
+
+### Implementation
+1. Difficulty in creating a queue system for the frinners (solved)
+	*	Solution: Create a separate FrinnerQueue model table that specifically stores the users who are currently queuing.
+
+2. Difficulty in decoupling the backend and frontend
+	* Current System too reliant on transmitting specific data directly from backend to frontend before display
+	* Proposed Solution: Try to abstract functions (such as getters and setters) out into small unit level so that it would be easier to be implemented into a http request based API.
+
 ## To do
 ### Webapp
 1. Profile editing (Change username/password/matric card number etc.)
