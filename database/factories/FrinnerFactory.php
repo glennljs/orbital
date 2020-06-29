@@ -10,6 +10,6 @@ $factory->define(Frinner::class, function (Faker $faker) {
     return [
         'user_id' => User::all()->random()->id,
         'taker_id' => User::all()->random()->id,
-        'taken' => true,
+        'taken' => true
     ];
 });
