@@ -15,7 +15,7 @@ Hall caterers will prepare food for the total number of people staying in a give
 
 ### Webapp
 
-#### Technologies:
+#### Technologies
 1. Laravel Framework for Backend
 2. Laravel Blade Templating for Frontend
 3. Bootstrap for Styling
