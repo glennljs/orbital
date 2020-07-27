@@ -98,5 +98,38 @@ Duplicate Prevention | 10/10 | System swiftly detected duplicates and prevented 
 User Profile; Profile Editing | 6/10 | No implementation of password reset.
 Queue System | 8/10 | Innovating solution of implementing queue system. A possible improvement to increase efficiency of attaining Frinners would be to indicate the estimated waiting time for Frinners for better user experience.
 
+## Project Log
 
+S/N | Task | Orbitee 1 (hours) | Orbitee 2 (hours) |
+--- | --- | --- | ---
+| Milestone 1 | |
+1 | Liftoff | 1 | 1
+2 | Poster and Video Creation | 3 | 3
+3 | Mission Control 1 and its preparation | 3 | 0
+4 | Team meeting & initial planning. Delegated Roles & Discussed Tech Stack Required | 10 | 10
+5 | Programming at home: Learnt how to create a basic web app | 12 | 15
+6 | Programming at home: Creating skeleton of webapp | 6 | 6
+7 | Team meeting Milestone I Preparation & Backend Database Discussion | 5 | 5
+| Milestone 2 | |
+8 | Evaluating other teams | 2 | 2
+9 | Reviewing feedback | 2 | 2
+10 | Prototype development (Log in and Registration) | 8 | 8
+11 | Prototype development (Dashboard) | 10 | 10
+12 | Prototype development (Give and Take Frinner) | 7 | 7
+13 | Prototype development (Queue System) | 7 | 7
+14 | Video preparation | 4 | 4
+15 | Team Meeting: Finalised Prototype and Milestone Preparation | 4 | 4
+| Milestone 3 | |
+16 | Evaluating Other Teams | 2 | 2
+17 | Team Meeting: Reviewing Feedback | 4 | 4
+18 | Prototype Development (Implemented Feature where Users are able to edit their Profile) | 7 | 7
+19 | Prototype Development (Implemented Feature where user can be removed from queue if user hasn't been given a Frinner or delete untaken frinner) | 9 | 9
+20 | Prototype Development (Troubleshooting & Debugging) | 8 | 8
+21 | Self-Directed Learning of Telegram Bot | 20 | 20
+22 | Team Meeting: Called off Implementation of Telegram Bot | 2 | 2
+23 | Editing Poster | 1 | 1
+24 | Gathering of User Feedback | 10 | 10
+25 | Team Meeting: Discussion for Milestone Submission | 2 | 2
+26 | Team Meeting: Preparation for Milestone Submission | 10 | 10
+27 | Team Meeting: Final Touches | 2 | 2
 
