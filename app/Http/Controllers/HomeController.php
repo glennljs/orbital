@@ -64,6 +64,39 @@ class HomeController extends Controller
         return view('profile', $data);
     }
 
+    public function editProfile(Request $request) 
+    {
+        $user = auth()->user();
+        $given_frinners = FrinnerController::get_given_frinners();
+        $taken_frinners = FrinnerController::get_taken_frinners();
+        
+        $data = [
+            'user' => $user,
+            'given_frinners' => count($given_frinners),
+            'taken_frinners' => count($taken_frinners),
+        ];
+
+        return view('edit_profile', $data);
+    }
+
+    public function storeNewProfile(Request $request)
+    {
+        $user = auth()->user();
+
+        $validatedData = $request->validate([
+            'inputName' => ['required', 'string', 'max:255'],
+            'inputUsername' => ['required', 'string', 'unique:users,username,'.$user->id],
+            'inputMatricNo' => ['required', 'string', 'unique:users,matricNo,'.$user->id, 'min:9', 'max:9', 'regex:/^[A]\d{7}[A-Z]$/'],
+        ]);
+    
+        $user->name = $request->inputName;
+        $user->username = $request->inputUsername;
+        $user->matricNo = $request->inputMatricNo;
+        $user->save();
+
+        return redirect('profile');
+    }
+
     public function queue(Request $request)
     {
         $queue = FrinnerQueue::whereDate('created_at', Carbon::now())
