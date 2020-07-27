@@ -97,6 +97,15 @@ class HomeController extends Controller
         return redirect('profile');
     }
 
+    public function deleteFrinner(Request $request) 
+    {
+        $frinner = Frinner::where('id', $request->frinner_id)->first();
+        if (!$frinner->taken) {
+            $frinner->delete();
+        }
+        return redirect('home');
+    }
+
     public function queue(Request $request)
     {
         $queue = FrinnerQueue::whereDate('created_at', Carbon::now())

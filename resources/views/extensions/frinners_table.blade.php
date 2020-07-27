@@ -6,9 +6,7 @@
             <th scope="col">Taker</th>
             <th scope="col">Taken</th>
             <th scope="col">Date</th>
-            @if ($get_matric)
-                <th scope="col"></th>
-            @endif
+            <th scope="col"></th>
         </tr>
     </thead>
     <tbody>
@@ -25,6 +23,16 @@
 
                 <td>{{ $frinner->taken ? "Yes" : "No" }}</td>
                 <td>{{ \Carbon\Carbon::parse($frinner->created_at)->format('d/m/Y') }}</td>
+                @if (!$frinner->taken)
+                    <td>
+                        <form action="/delete_frinner" method="POST">
+                            @csrf
+                            <input hidden type="text" name="frinner_id" value="{{ $frinner->id }}" />
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                @endif
+
                 @if ($get_matric)
                     <td>
                         <button type="button" class="btn btn-light" data-toggle="modal" data-target="#getMatric"
