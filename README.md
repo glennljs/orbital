@@ -102,7 +102,7 @@ Queue System | 8/10 | Innovating solution of implementing queue system. A possib
 
 S/N | Task | Orbitee 1 (hours) | Orbitee 2 (hours) |
 --- | --- | --- | ---
-| Milestone 1 | |
+x | Milestone 1 | |
 1 | Liftoff | 1 | 1
 2 | Poster and Video Creation | 3 | 3
 3 | Mission Control 1 and its preparation | 3 | 0
@@ -110,7 +110,7 @@ S/N | Task | Orbitee 1 (hours) | Orbitee 2 (hours) |
 5 | Programming at home: Learnt how to create a basic web app | 12 | 15
 6 | Programming at home: Creating skeleton of webapp | 6 | 6
 7 | Team meeting Milestone I Preparation & Backend Database Discussion | 5 | 5
-| Milestone 2 | |
+x | Milestone 2 | |
 8 | Evaluating other teams | 2 | 2
 9 | Reviewing feedback | 2 | 2
 10 | Prototype development (Log in and Registration) | 8 | 8
@@ -119,7 +119,7 @@ S/N | Task | Orbitee 1 (hours) | Orbitee 2 (hours) |
 13 | Prototype development (Queue System) | 7 | 7
 14 | Video preparation | 4 | 4
 15 | Team Meeting: Finalised Prototype and Milestone Preparation | 4 | 4
-| Milestone 3 | |
+x | Milestone 3 | |
 16 | Evaluating Other Teams | 2 | 2
 17 | Team Meeting: Reviewing Feedback | 4 | 4
 18 | Prototype Development (Implemented Feature where Users are able to edit their Profile) | 7 | 7
