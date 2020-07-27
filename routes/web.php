@@ -23,6 +23,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/profile', 'HomeController@profile')->name('profile');
 Route::get('/editProfile', 'HomeController@editProfile')->name('editProfile');
 Route::post('/store_new_profile', 'HomeController@storeNewProfile');
+Route::post('/delete_frinner', 'HomeController@deleteFrinner');
 Route::get('/queue', 'HomeController@queue')->name('queue');
 
 Route::post('/give_frinner', 'FrinnerController@give_frinner');
