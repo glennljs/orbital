@@ -108,9 +108,10 @@ class HomeController extends Controller
 
     public function queue(Request $request)
     {
+        $userInQueue = FrinnerController::user_in_queue();
         $queue = FrinnerQueue::whereDate('created_at', Carbon::now())
             ->where('taken', false)->get();
         
-        return view('queue', ['queue' => $queue]);
+        return view('queue', ['userInQueue' => $userInQueue, 'queue' => $queue]);
     }
 }

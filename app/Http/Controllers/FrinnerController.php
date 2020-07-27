@@ -110,6 +110,26 @@ class FrinnerController extends Controller
         ]);
     }
 
+    public function delete_frinner_queue()
+    {
+        $user_id = Self::get_user_id();
+
+        if (Self::user_in_queue()) {
+            FrinnerQueue::where('user_id', $user_id)
+                ->whereDate('created_at', Carbon::now())->first()->delete();
+            $result = "success";
+            $message = "Your frinner request was successfully removed from the queue!";
+        } else {
+            $result = "danger";
+            $message = "You are not currently in the queue!";
+        }
+
+        return redirect()->action('HomeController@index', [
+            'result' => $result,
+            'message' => $message
+        ]);
+    }
+
     public static function has_queue()
     {
         return FrinnerQueue::where('taken', false)
