@@ -133,3 +133,7 @@ x | Milestone 3 | |
 26 | Team Meeting: Preparation for Milestone Submission | 10 | 10
 27 | Team Meeting: Final Touches | 2 | 2
 
+
+Total hours | Orbitee 1 (hours) | Orbitee 2 (hours)
+--- | --- | ---
+322 | 161 | 161
