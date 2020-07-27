@@ -21,7 +21,7 @@
                     <input type="text" name="inputName" class="form-control" id="inputName" value="{{ $user->name }}">
                 </div>
                 <div class="form-group">
-                    <label for="inputMatricNo">Name: </label>
+                    <label for="inputMatricNo">Matric No: </label>
                     <input type="text" name="inputMatricNo" class="form-control" id="inputMatricNo" value="{{ $user->matricNo }}">
                 </div>
                 <div class="form-group">
