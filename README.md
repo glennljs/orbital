@@ -1,6 +1,10 @@
 # Orbital Project - Frinner 
 http://orbital-project.herokuapp.com/
 
+#### Sample Login: 
+Username: johnathan97
+Password: password
+
 ## Introduction
 
 ### Proposed Level of Achievement: 
