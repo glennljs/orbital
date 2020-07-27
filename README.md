@@ -44,8 +44,7 @@ The Webapp provides a simple user-friendly interface for users to give and take 
 ## Software Engineering Principles
 
 ### Model System
-![Image of Models]
-(/images/models.png)
+![Model System](https://github.com/glennljs/orbital/blob/master/images/models.png)
 
 #### Models
 1. User model holds important information about the user such as name, username, hashed password and matriculation card number.
