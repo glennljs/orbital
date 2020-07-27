@@ -4,7 +4,10 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <h1 class="title">Profile</h1>
+            <div class="row">
+                <h1 class="title">Profile</h1>
+                <a href="/editProfile" type="button" class="btn btn-link">Edit</a>
+            </div>
             <div class="row">
                 <div class="col-4">
                     Name:

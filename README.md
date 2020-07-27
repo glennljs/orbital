@@ -36,7 +36,7 @@ Hall caterers will prepare food for the total number of people staying in a give
 
 2. Difficulty in decoupling the backend and frontend
 	* Current System too reliant on transmitting specific data directly from backend to frontend before display
-	* Proposed Solution: Try to abstract functions (such as getters and setters) out into small unit level so that it would be easier to be implemented into a http request based API.
+	* Proposed Solution: Try to abstract functions (such as getters and setters) out into small unit level soApp that it would be easier to be implemented into a http request based API.
 
 ## To do
 ### Webapp
