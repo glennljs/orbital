@@ -84,5 +84,19 @@ Testing was done via peer review as well as our friends.
 1. Unable to delete frinners before it is taken by someone. (Fixed)
 2. Unable to edit my matriculation card number if I initially input the wrong number while signing up. (Fixed)
 3. Unable to remove myself from the queue if I had decided not to take the frinner. (Fixed)
-4. No way to notify if I have successfully received a frinner while being in the queue.
+4. No way to notify if I have successfully received a frinner while being in the queue. (Not Fixed)
 	* Unfortunately we were unable to implement a notification system for the app.
+
+### Feedback
+
+Feature | Rating (X/10) | Feedback
+--- | --- | ---
+Login/Registration | 10/10 | Simple and hassle-free login system with input validation to prevent edge cases.
+User Dashboard | 8/10 | Simple interface with pagination allows easy usage on mobile devices.
+Give/ Take Function | 7/10 | Easy to use give/take system but could be extended to further increase privacy.
+Duplicate Prevention | 10/10 | System swiftly detected duplicates and prevented recurring actions.
+User Profile; Profile Editing | 6/10 | No implementation of password reset.
+Queue System | 8/10 | Innovating solution of implementing queue system. A possible improvement to increase efficiency of attaining Frinners would be to indicate the estimated waiting time for Frinners for better user experience.
+
+
+
